@@ -1,0 +1,14 @@
+AIGuide.md
+AWSGuide.md
+ActionsToJenkins.md
+InhouseToAWS.md
+JavaToKotlin.md
+Remote.md
+RestAPI.md
+file_list.txt
+labels.json
+quarterly.md
+website_guide.md
+dummy_proposal.md
+ai_proposal.md
+weekly_memo.md

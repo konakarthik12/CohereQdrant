@@ -1,4 +1,4 @@
-# Integrating AI into our apps [Guide]
+# Integrating AI into our apps
 
 Step 1: Choose Your AI Platform
 The first step in integrating AI into your app is to choose the right AI platform. There are several popular AI platforms available, including TensorFlow, PyTorch, and Keras. Each platform has its strengths and weaknesses, so choose the one that best fits your needs.

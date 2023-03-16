@@ -1,4 +1,4 @@
-# Optimizing server costs AWS [Guide]
+# Optimizing server costs AWS
 
 - Optimize network usage: Minimize network traffic by using content delivery networks (CDNs) and caching. Also, make sure to review and optimize data transfer costs, especially for large file transfers or for data transfer between different regions or providers.
 - Optimize storage usage: You can optimize storage usage by compressing data, removing unused files, and using cheaper storage options for less frequently accessed data. Also, consider using backup and archive solutions that are optimized for long-term storage.

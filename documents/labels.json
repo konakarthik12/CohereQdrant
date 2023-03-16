@@ -1,0 +1,15 @@
+{
+    "classes": ["guide", "report", "proposal", "memo"],
+    "AIGuide.md":  "guide",
+    "AWSGuide.md": "guide",
+    "ActionsToJenkins.md": "report",
+    "InhouseToAWS.md": "report",
+    "JavaToKotlin.md": "report",
+    "Remote.md": "memo",
+    "RestAPI.md": "proposal",
+    "quarterly.md": "memo",
+    "website_guide.md": "guide",
+    "dummy_proposal.md": "proposal",
+    "ai_proposal.md": "proposal",
+    "weekly_memo.md": "memo",
+}
