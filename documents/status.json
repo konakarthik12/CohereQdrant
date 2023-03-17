@@ -1,0 +1,20 @@
+{
+    "classes": ["finished", "unfinished"],
+    "AIGuide.md":  "finished",
+    "AWSGuide.md": "finished",
+    "ActionsToJenkins.md": "finished",
+    "InhouseToAWS.md": "finished",
+    "JavaToKotlin.md": "finished",
+    "Remote.md": "finished",
+    "RestAPI.md": "finished",
+    "quarterly.md": "finished",
+    "website_guide.md": "finished",
+    "dummy_proposal.md": "finished",
+    "ai_proposal.md": "finished",
+    "weekly_memo.md": "finished",
+    "snacks.md": "unfinished",
+    "palantir.md": "unfinished",
+    "stretch.md": "unfinished",
+    "java.md": "unfinished"
+}
+
