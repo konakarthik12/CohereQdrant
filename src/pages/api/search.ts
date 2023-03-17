@@ -12,6 +12,7 @@ cohere.init(process.env.COHERE_API_KEY);
 async function embed(query) {
   const response = await cohere.embed({
     texts: [query],
+    model: "multilingual-22-12",
   });
   return response.body.embeddings[0];
 }

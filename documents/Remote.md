@@ -19,6 +19,3 @@ To ensure a smooth transition, we will be providing training and resources for r
 We appreciate your continued hard work and dedication to our company, and we believe that this change will allow us to continue to grow and succeed in the years to come.
 
 If you have any questions or concerns about this change, please do not hesitate to reach out to your manager or our HR department.
-
-Sincerely,
-The Boss

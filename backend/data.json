@@ -294,7 +294,7 @@
         }
     },
     {
-        "text": "# Optimizing server costs AWS [Guide]\n\n- Optimize network usage: Minimize network traffic by using content delivery networks (CDNs) and caching.",
+        "text": "# Optimizing server costs AWS [Guide]\n\n* Optimize network usage: Minimize network traffic by using content delivery networks (CDNs) and caching.",
         "meta": {
             "source": "AWSGuide.md"
         }
@@ -306,7 +306,7 @@
         }
     },
     {
-        "text": "- Optimize storage usage: You can optimize storage usage by compressing data, removing unused files, and using cheaper storage options for less frequently accessed data.",
+        "text": "* Optimize storage usage: You can optimize storage usage by compressing data, removing unused files, and using cheaper storage options for less frequently accessed data.",
         "meta": {
             "source": "AWSGuide.md"
         }
@@ -318,7 +318,7 @@
         }
     },
     {
-        "text": "- Monitor resource utilization: Keeping track of server utilization can help you identify which resources are underutilized or overutilized.",
+        "text": "* Monitor resource utilization: Keeping track of server utilization can help you identify which resources are underutilized or overutilized.",
         "meta": {
             "source": "AWSGuide.md"
         }
@@ -330,7 +330,7 @@
         }
     },
     {
-        "text": "- Use automation: Automating processes can help you avoid human error and optimize server usage.",
+        "text": "* Use automation: Automating processes can help you avoid human error and optimize server usage.",
         "meta": {
             "source": "AWSGuide.md"
         }
@@ -342,7 +342,7 @@
         }
     },
     {
-        "text": "- Use reserved instances: Cloud providers offer discounts for reserved instances, which are instances that you commit to using for a certain period of time.",
+        "text": "* Use reserved instances: Cloud providers offer discounts for reserved instances, which are instances that you commit to using for a certain period of time.",
         "meta": {
             "source": "AWSGuide.md"
         }
@@ -354,7 +354,7 @@
         }
     },
     {
-        "text": "- Use cost optimization tools: Cloud providers offer cost optimization tools that can help you analyze your usage and identify opportunities for cost savings.",
+        "text": "* Use cost optimization tools: Cloud providers offer cost optimization tools that can help you analyze your usage and identify opportunities for cost savings.",
         "meta": {
             "source": "AWSGuide.md"
         }
@@ -733,12 +733,6 @@
     },
     {
         "text": "If you have any questions or concerns about this change, please do not hesitate to reach out to your manager or our HR department.",
-        "meta": {
-            "source": "Remote.md"
-        }
-    },
-    {
-        "text": "Sincerely,\nThe Boss",
         "meta": {
             "source": "Remote.md"
         }
