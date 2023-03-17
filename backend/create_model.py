@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 
 from qdrant_client import QdrantClient
 from qdrant_client.models import VectorParams
+
 load_dotenv()
 # from qdrant_demo.config import DATA_DIR, COLLECTION_NAME, QDRANT_HOST, QDRANT_PORT
 
@@ -16,18 +17,15 @@ if __name__ == '__main__':
     vectors_path = os.path.join(".", 'vectors.npy')
     vectors = np.load(vectors_path)
     vector_size = vectors.shape[1]
-
-    payload_path = os.path.join(".", 'startups_demo.json')
-    with open(payload_path) as fd:
-        payload = list(map(json.loads, fd))
-
+    json_file = open('data.json', 'r')
+    payload = json.load(json_file)
     qdrant_client.recreate_collection(
-        collection_name="startups",
+        collection_name="documents",
         vectors_config=VectorParams(size=vector_size, distance="Cosine")
     )
 
     qdrant_client.upload_collection(
-        collection_name="startups",
+        collection_name="documents",
         vectors=vectors,
         payload=payload,
         ids=None,
