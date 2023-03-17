@@ -1,740 +1,1938 @@
 [
-    {
-        "text": "# Why we are switching to Rest API from GraphQL\n\n- Better support for caching: REST API has been around for much longer and has better support for caching compared to GraphQL.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "Caching can help improve the performance of the API by reducing the number of requests made to the server.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "If caching is a critical requirement for the project, migrating to REST API could be a better choice.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "- Reduced complexity: GraphQL can be more complex to implement, especially if the project requires complex queries or nested relationships.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "REST API, on the other hand, can be more straightforward to implement for simpler use cases.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "- Easier Integration with Legacy Systems: If a company has legacy systems that only support REST APIs, it may be more cost-effective to use REST APIs instead of investing in new technologies and infrastructure to support GraphQL.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "- Wider Adoption: REST APIs have been around for much longer and are more widely adopted compared to GraphQL.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "As a result, there is a larger pool of developers who are familiar with REST APIs, and there are more tools and resources available to support REST APIs.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "- Performance Optimization: REST APIs have been around for a long time, and there are many proven techniques for optimizing their performance, such as caching and content delivery networks.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "While GraphQL is designed to be more efficient in some cases, it may not always be the best choice for high-performance applications.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "- Simpler Implementation: REST APIs are generally considered simpler to implement than GraphQL, which can be more complex, especially for developers who are new to the technology.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "If a company has limited resources or a tight timeline, it may be more efficient to use REST APIs instead of investing time and resources into learning and implementing GraphQL.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "- More Robust Error Handling: REST APIs have a more well-established error handling mechanism that can help companies identify and address issues more quickly.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "GraphQL has a more flexible error handling mechanism, but it can be more difficult to troubleshoot errors.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "- Better Support for Integration with Third-Party Tools: Many third-party tools and platforms have built-in support for REST APIs, which can make it easier to integrate with these tools.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "While GraphQL is gaining popularity, it may not yet have the same level of support from third-party tools and platforms.",
-        "meta": {
-            "source": "RestAPI.md"
-        }
-    },
-    {
-        "text": "# Internal Quarterly Report for Q1 2023:\n\n## Introduction:\nThis report outlines the performance of the company for the first quarter of 2023.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "The report includes information about the financial status, sales, marketing activities, and overall progress of the company during the quarter.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "## Financial Status:\nDuring the first quarter of 2023, the company recorded a total revenue of $10 million, which is a 5% decrease from the same period last year.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "The net income for the quarter was $2 million, which represents a 6.2% increase compared to the previous year.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "The operating expenses for the quarter were $6 million, which are more than last year.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "## Sales Performance:\nThe company witnessed strong sales performance during the first quarter of 2023.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "The total sales for the quarter were $8 million, which is a 7% increase compared to the same period last year.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "The sales growth was driven by the launch of new products and expansion into new markets.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "The company expects the sales growth to continue in the upcoming quarters.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "## Marketing Activities:\nDuring the first quarter of 2023, the company focused on expanding its marketing efforts.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "The company increased its digital marketing activities by launching a new social media campaign and partnering with influencers to promote the brand.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "The company also participated in several trade shows and events to increase brand awareness.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "## Overall Progress:\nThe first quarter of 2023 was acceptable, but not ideal for the company.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "The financial performance was weak, with revenue and net income decreasing compared to the previous year.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "The sales growth was driven by the launch of new products and expansion into new markets.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "The marketing activities helped the company to increase brand awareness and reach new customers.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "## Response:\nIn an effort to cut costs we\u2019ve made the decision to reduce headcount.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "We will also begin implementing remote first work and closing some of our offices, further details to be released soon.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "Additionally, we will begin moving to incorporate AI products in our business.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "As AI technology continues to advance, companies that do not adapt risk being left behind.",
-        "meta": {
-            "source": "quarterly.md"
-        }
-    },
-    {
-        "text": "# Why we switched from Java to Kotlin (Meta)\n\nNullability: Kotlin has built-in nullability handling that is more robust and easier to work with than Java, which can help to avoid null pointer exceptions.",
-        "meta": {
-            "source": "JavaToKotlin.md"
-        }
-    },
-    {
-        "text": "Functional programming: Kotlin's support for inline functions and lambda expressions allows for the use of a functional programming style without compromising execution speed, making it a better alternative to Java.",
-        "meta": {
-            "source": "JavaToKotlin.md"
-        }
-    },
-    {
-        "text": "Shorter code: Kotlin's modern design makes its code shorter, and it allows for dropping explicit types, which can make code more explicit and easier to follow.",
-        "meta": {
-            "source": "JavaToKotlin.md"
-        }
-    },
-    {
-        "text": "Domain-specific language (DSL) / Type-safe builders: Kotlin's various features come together and let developers define a DSL, making it possible to move definitions such as Android XMLs to be implemented directly in Kotlin code.",
-        "meta": {
-            "source": "JavaToKotlin.md"
-        }
-    },
-    {
-        "text": "Maintaining execution speed: Kotlin compiles to the same JVM bytecode as Java, which means there is no expected performance regression in terms of execution speed when switching to Kotlin.",
-        "meta": {
-            "source": "JavaToKotlin.md"
-        }
-    },
-    {
-        "text": "After running multiple A/B tests Kotlin was found to match or exceed Java in performance.",
-        "meta": {
-            "source": "JavaToKotlin.md"
-        }
-    },
-    {
-        "text": "Build size is not an issue: The Kotlin standard library is relatively small, and since most releases use Proguard and Redex, only some of it even makes it into a release APK.",
-        "meta": {
-            "source": "JavaToKotlin.md"
-        }
-    },
-    {
-        "text": "Therefore, size hasn\u2019t proved to be a problem except in situations where a few KBs of extra code matter.",
-        "meta": {
-            "source": "JavaToKotlin.md"
-        }
-    },
-    {
-        "text": "However, by avoiding Kotlin\u2019s standard library and using the already available Java methods, the problem can be solved.",
-        "meta": {
-            "source": "JavaToKotlin.md"
-        }
-    },
-    {
-        "text": "However, adopting Kotlin also has a few disadvantages:\n\nMixed codebase: Adopting another language could mean dealing with a mixed codebase of two languages for a long time.",
-        "meta": {
-            "source": "JavaToKotlin.md"
-        }
-    },
-    {
-        "text": "Kotlin is good at interacting with Java, but quirks do pop up at times.",
-        "meta": {
-            "source": "JavaToKotlin.md"
-        }
-    },
-    {
-        "text": "Popularity gap: Java is still more popular than Kotlin, so fewer tools are available, and all Kotlin tools need to account for Kotlin and Java interoperability, which complicates their implementation.",
-        "meta": {
-            "source": "JavaToKotlin.md"
-        }
-    },
-    {
-        "text": "Build times: Kotlin's build times can be longer than Java's due to its more complicated ecosystem, which can negatively impact developers' experience.",
-        "meta": {
-            "source": "JavaToKotlin.md"
-        }
-    },
-    {
-        "text": "# Optimizing server costs AWS [Guide]\n\n* Optimize network usage: Minimize network traffic by using content delivery networks (CDNs) and caching.",
-        "meta": {
-            "source": "AWSGuide.md"
-        }
-    },
-    {
-        "text": "Also, make sure to review and optimize data transfer costs, especially for large file transfers or for data transfer between different regions or providers.",
-        "meta": {
-            "source": "AWSGuide.md"
-        }
-    },
-    {
-        "text": "* Optimize storage usage: You can optimize storage usage by compressing data, removing unused files, and using cheaper storage options for less frequently accessed data.",
-        "meta": {
-            "source": "AWSGuide.md"
-        }
-    },
-    {
-        "text": "Also, consider using backup and archive solutions that are optimized for long-term storage.",
-        "meta": {
-            "source": "AWSGuide.md"
-        }
-    },
-    {
-        "text": "* Monitor resource utilization: Keeping track of server utilization can help you identify which resources are underutilized or overutilized.",
-        "meta": {
-            "source": "AWSGuide.md"
-        }
-    },
-    {
-        "text": "You can then make adjustments, such as reducing the number of virtual machines running or resizing instances, to optimize resource usage and minimize costs.",
-        "meta": {
-            "source": "AWSGuide.md"
-        }
-    },
-    {
-        "text": "* Use automation: Automating processes can help you avoid human error and optimize server usage.",
-        "meta": {
-            "source": "AWSGuide.md"
-        }
-    },
-    {
-        "text": "For example, you can set up auto scaling groups to automatically adjust the number of instances based on demand, or use serverless computing to automatically allocate resources when needed.",
-        "meta": {
-            "source": "AWSGuide.md"
-        }
-    },
-    {
-        "text": "* Use reserved instances: Cloud providers offer discounts for reserved instances, which are instances that you commit to using for a certain period of time.",
-        "meta": {
-            "source": "AWSGuide.md"
-        }
-    },
-    {
-        "text": "By committing to use instances for longer periods, you can reduce costs and get more predictable pricing.",
-        "meta": {
-            "source": "AWSGuide.md"
-        }
-    },
-    {
-        "text": "* Use cost optimization tools: Cloud providers offer cost optimization tools that can help you analyze your usage and identify opportunities for cost savings.",
-        "meta": {
-            "source": "AWSGuide.md"
-        }
-    },
-    {
-        "text": "Use these tools to regularly review your usage and make adjustments as needed.",
-        "meta": {
-            "source": "AWSGuide.md"
-        }
-    },
-    {
-        "text": "# Github Actions to Jenkins\n\nWhile GitHub Actions and Jenkins are both popular CI/CD tools, we've made the\nchoice to switch to Jenkins.",
-        "meta": {
-            "source": "ActionsToJenkins.md"
-        }
-    },
-    {
-        "text": "- Greater Flexibility: Jenkins provides greater flexibility and customization options compared to GitHub Actions.",
-        "meta": {
-            "source": "ActionsToJenkins.md"
-        }
-    },
-    {
-        "text": "Jenkins is an open-source tool, and developers can write custom plugins to extend its functionality, while GitHub Actions is a proprietary tool with more limited options for customization.",
-        "meta": {
-            "source": "ActionsToJenkins.md"
-        }
-    },
-    {
-        "text": "- Better Integration with Legacy Systems: Jenkins has been around for much longer than GitHub Actions, and as a result, it has better integration capabilities with legacy systems.",
-        "meta": {
-            "source": "ActionsToJenkins.md"
-        }
-    },
-    {
-        "text": "If a company has existing infrastructure or tools that are compatible with Jenkins, it may be more efficient to use Jenkins instead of investing in new technologies to support GitHub Actions.",
-        "meta": {
-            "source": "ActionsToJenkins.md"
-        }
-    },
-    {
-        "text": "- More Comprehensive Build Pipelines: Jenkins has a more comprehensive set of features for building and deploying applications, such as support for parallel builds, distributed builds, and multiple triggers.",
-        "meta": {
-            "source": "ActionsToJenkins.md"
-        }
-    },
-    {
-        "text": "While GitHub Actions has similar features, Jenkins has been around for much longer and has a more mature ecosystem.",
-        "meta": {
-            "source": "ActionsToJenkins.md"
-        }
-    },
-    {
-        "text": "- Better Support for Large-Scale Projects: Jenkins is designed to handle large-scale projects with multiple components, while GitHub Actions is more geared towards smaller projects with simpler workflows.",
-        "meta": {
-            "source": "ActionsToJenkins.md"
-        }
-    },
-    {
-        "text": "If a company has a large-scale project with complex workflows and multiple components, Jenkins may be a better choice.",
-        "meta": {
-            "source": "ActionsToJenkins.md"
-        }
-    },
-    {
-        "text": "- Better Control over Security: Jenkins provides better control over security compared to GitHub Actions.",
-        "meta": {
-            "source": "ActionsToJenkins.md"
-        }
-    },
-    {
-        "text": "With Jenkins, the company has full control over the infrastructure and can implement security measures such as firewalls, access controls, and user permissions.",
-        "meta": {
-            "source": "ActionsToJenkins.md"
-        }
-    },
-    {
-        "text": "While GitHub Actions also provides security features, the company has less control over the underlying infrastructure.",
-        "meta": {
-            "source": "ActionsToJenkins.md"
-        }
-    },
-    {
-        "text": "- Better Support for Multiple Platforms: Jenkins supports multiple platforms, including Linux, Windows, and macOS, while GitHub Actions has limited support for Windows and macOS.",
-        "meta": {
-            "source": "ActionsToJenkins.md"
-        }
-    },
-    {
-        "text": "If a company needs to build and deploy applications across multiple platforms, Jenkins may be a better choice.",
-        "meta": {
-            "source": "ActionsToJenkins.md"
-        }
-    },
-    {
-        "text": "- It's important to note that while there may be reasons to switch from GitHub Actions to Jenkins, each tool has its own strengths and weaknesses, and the decision should be based on the specific needs and requirements of the company.",
-        "meta": {
-            "source": "ActionsToJenkins.md"
-        }
-    },
-    {
-        "text": "# Integrating AI into our apps [Guide]\n\nStep 1: Choose Your AI Platform\nThe first step in integrating AI into your app is to choose the right AI platform.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "There are several popular AI platforms available, including TensorFlow, PyTorch, and Keras.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "Each platform has its strengths and weaknesses, so choose the one that best fits your needs.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "Step 2: Prepare Your Data\nTo train an AI model, you need a large amount of data.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "Depending on the use case, you may need to collect data from various sources and prepare it for training.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "This involves cleaning the data, labeling it, and splitting it into training and testing sets.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "Step 3: Select and Train Your AI Model\nOnce you have prepared your data, you need to select an AI model that fits your use case.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "There are several pre-built AI models available, or you can build your own from scratch using your preferred AI platform.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "Training an AI model involves feeding it your prepared data and iteratively adjusting the model's parameters until it accurately predicts the desired outcome.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "Step 4: Integrate Your AI Model into Your App\nAfter training your AI model, it's time to integrate it into your app.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "This involves exporting the model and integrating it into your app's codebase.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "Depending on the platform and programming language you're using, there are several ways to integrate an AI model.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "You can use an API, SDK, or directly incorporate the model into your code.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "Step 5: Test and Refine Your AI Model\nOnce you've integrated your AI model into your app, it's important to test it thoroughly to ensure it's performing as expected.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "This involves testing the model under different scenarios and using various metrics to evaluate its accuracy.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "If necessary, refine the model by tweaking its parameters or adding more training data.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "Pitfalls:\n\nIntegration challenges: Integrating AI systems with existing infrastructure and workflows can be challenging.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "Organizations may need to invest in additional resources to ensure that the integration is successful.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "Lack of transparency: AI models can be difficult to interpret and understand, leading to concerns about their transparency and accountability.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "It is important for organizations to ensure that their AI systems are transparent and that their decisions can be explained to stakeholders.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "Ethical concerns: AI systems can raise ethical concerns, particularly around issues such as fairness, accountability, and bias.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "Organizations must ensure that they are considering these ethical concerns throughout the AI integration process.",
-        "meta": {
-            "source": "AIGuide.md"
-        }
-    },
-    {
-        "text": "# Switching from in house servers to AWS\n\nIn an effort to grow faster, we've made the decision to move to AWS.",
-        "meta": {
-            "source": "InhouseToAWS.md"
-        }
-    },
-    {
-        "text": "Scalability: In-house servers are limited by physical infrastructure and can only handle a certain amount of traffic and data processing.",
-        "meta": {
-            "source": "InhouseToAWS.md"
-        }
-    },
-    {
-        "text": "With AWS, developers can easily scale up or down their computing resources to meet the demands of their applications, without the need for additional hardware.",
-        "meta": {
-            "source": "InhouseToAWS.md"
-        }
-    },
-    {
-        "text": "Cost-effectiveness: Building and maintaining an in-house server infrastructure can be expensive, requiring significant upfront costs for hardware, software licenses, and ongoing maintenance.",
-        "meta": {
-            "source": "InhouseToAWS.md"
-        }
-    },
-    {
-        "text": "With AWS, developers can pay for what they use, only paying for the computing resources they need at any given time.",
-        "meta": {
-            "source": "InhouseToAWS.md"
-        }
-    },
-    {
-        "text": "High Availability: AWS provides multiple availability zones across the globe, ensuring that applications are highly available and accessible to users, even in the event of a data center failure.",
-        "meta": {
-            "source": "InhouseToAWS.md"
-        }
-    },
-    {
-        "text": "This level of redundancy is difficult and expensive to replicate with an in-house infrastructure.",
-        "meta": {
-            "source": "InhouseToAWS.md"
-        }
-    },
-    {
-        "text": "Security: AWS provides a wide range of security features, including encryption, access control, and monitoring tools, which can help developers protect their applications and data from external threats.",
-        "meta": {
-            "source": "InhouseToAWS.md"
-        }
-    },
-    {
-        "text": "In-house server setups require additional resources and expertise to ensure similar levels of security.",
-        "meta": {
-            "source": "InhouseToAWS.md"
-        }
-    },
-    {
-        "text": "Flexibility: AWS provides a wide range of services, including compute, storage, and database offerings, that can be quickly and easily integrated into applications.",
-        "meta": {
-            "source": "InhouseToAWS.md"
-        }
-    },
-    {
-        "text": "This flexibility allows developers to build and deploy applications more quickly and efficiently than they could with an in-house infrastructure.",
-        "meta": {
-            "source": "InhouseToAWS.md"
-        }
-    },
-    {
-        "text": "Global Reach: AWS has a vast global network of data centers, making it easy for developers to deploy applications and services in multiple regions around the world.",
-        "meta": {
-            "source": "InhouseToAWS.md"
-        }
-    },
-    {
-        "text": "This global reach can help companies expand their businesses and reach new customers.",
-        "meta": {
-            "source": "InhouseToAWS.md"
-        }
-    },
-    {
-        "text": "# Remote First Memo\n\nTo: All Employees\n\nSubject: Switching to Hybrid and Remote Work\n\nDear colleagues,\n\nAs we all know, the COVID-19 pandemic has had a profound impact on the way we work.",
-        "meta": {
-            "source": "Remote.md"
-        }
-    },
-    {
-        "text": "Since the start of the pandemic, we have all had to adapt to new ways of working, including working from home and conducting virtual meetings.",
-        "meta": {
-            "source": "Remote.md"
-        }
-    },
-    {
-        "text": "Over the past year, we have demonstrated that we can be productive and successful in a remote work environment.",
-        "meta": {
-            "source": "Remote.md"
-        }
-    },
-    {
-        "text": "As we look towards the future, we want to continue to prioritize the health and safety of our employees, while also providing flexibility and work-life balance.",
-        "meta": {
-            "source": "Remote.md"
-        }
-    },
-    {
-        "text": "After careful consideration and consultation with management and our HR department, we have decided to switch to a hybrid and remote work model.",
-        "meta": {
-            "source": "Remote.md"
-        }
-    },
-    {
-        "text": "Starting next month, we will be implementing a hybrid and remote work policy that will allow employees to work from home for up to two days a week, while also coming into the office for the remaining three days.",
-        "meta": {
-            "source": "Remote.md"
-        }
-    },
-    {
-        "text": "This will allow us to maintain the benefits of in-person collaboration and team building while also providing the flexibility and work-life balance that many employees have come to value.",
-        "meta": {
-            "source": "Remote.md"
-        }
-    },
-    {
-        "text": "We understand that this may be a significant change for some employees and that it will require us to adjust our working arrangements and communication channels.",
-        "meta": {
-            "source": "Remote.md"
-        }
-    },
-    {
-        "text": "However, we believe that this change will benefit both the company and our employees in the long run.",
-        "meta": {
-            "source": "Remote.md"
-        }
-    },
-    {
-        "text": "To ensure a smooth transition, we will be providing training and resources for remote work, including guidance on how to set up a home office, best practices for remote collaboration, and communication tools to facilitate virtual meetings and communication.",
-        "meta": {
-            "source": "Remote.md"
-        }
-    },
-    {
-        "text": "We appreciate your continued hard work and dedication to our company, and we believe that this change will allow us to continue to grow and succeed in the years to come.",
-        "meta": {
-            "source": "Remote.md"
-        }
-    },
-    {
-        "text": "If you have any questions or concerns about this change, please do not hesitate to reach out to your manager or our HR department.",
-        "meta": {
-            "source": "Remote.md"
-        }
+  {
+    "text": "Project Proposal: [Project Name]\n\nOverview:\n\nWe are proposing a project that will leverage Palantir's expertise in data analytics to [insert purpose of project].",
+    "meta": {
+      "source": "palantir.md",
+      "classification": "proposal",
+      "finished": "unfinished"
     }
+  },
+  {
+    "text": "Background:\n\n[Provide a brief background on the problem or opportunity that this project aims to address.]",
+    "meta": {
+      "source": "palantir.md",
+      "classification": "proposal",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Objectives:\n\nThe objectives of this project are to:\n\n[Insert objective 1]\n[Insert objective 2]\n[Insert objective 3]\nScope of Work:\n\nThe scope of work for this project will include:\n\n[Insert task 1]\n[Insert task 2]\n[Insert task 3]\nTimeline:\n\nWe anticipate that this project will take [insert estimated time frame] to complete.",
+    "meta": {
+      "source": "palantir.md",
+      "classification": "proposal",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Budget:\n\nThe budget for this project is [insert estimated budget].",
+    "meta": {
+      "source": "palantir.md",
+      "classification": "proposal",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Team:\n\nOur team consists of experienced professionals with a proven track record in [insert relevant field or industry].",
+    "meta": {
+      "source": "palantir.md",
+      "classification": "proposal",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Conclusion:\n\nWe believe that Palantir's expertise in data analytics and our team's experience make us the ideal partners for this project.",
+    "meta": {
+      "source": "palantir.md",
+      "classification": "proposal",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "We look forward to the opportunity to work together and deliver results that will benefit [insert beneficiaries or stakeholders].",
+    "meta": {
+      "source": "palantir.md",
+      "classification": "proposal",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Please let us know if you have any questions or require additional information.",
+    "meta": {
+      "source": "palantir.md",
+      "classification": "proposal",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Sincerely,\n\n[Your Name]",
+    "meta": {
+      "source": "palantir.md",
+      "classification": "proposal",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "# Why we are switching to Rest API from GraphQL\n\n- Better support for caching: REST API has been around for much longer and has better support for caching compared to GraphQL.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Caching can help improve the performance of the API by reducing the number of requests made to the server.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "If caching is a critical requirement for the project, migrating to REST API could be a better choice.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "- Reduced complexity: GraphQL can be more complex to implement, especially if the project requires complex queries or nested relationships.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "REST API, on the other hand, can be more straightforward to implement for simpler use cases.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "- Easier Integration with Legacy Systems: If a company has legacy systems that only support REST APIs, it may be more cost-effective to use REST APIs instead of investing in new technologies and infrastructure to support GraphQL.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "- Wider Adoption: REST APIs have been around for much longer and are more widely adopted compared to GraphQL.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "As a result, there is a larger pool of developers who are familiar with REST APIs, and there are more tools and resources available to support REST APIs.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "- Performance Optimization: REST APIs have been around for a long time, and there are many proven techniques for optimizing their performance, such as caching and content delivery networks.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "While GraphQL is designed to be more efficient in some cases, it may not always be the best choice for high-performance applications.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "- Simpler Implementation: REST APIs are generally considered simpler to implement than GraphQL, which can be more complex, especially for developers who are new to the technology.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "If a company has limited resources or a tight timeline, it may be more efficient to use REST APIs instead of investing time and resources into learning and implementing GraphQL.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "- More Robust Error Handling: REST APIs have a more well-established error handling mechanism that can help companies identify and address issues more quickly.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "GraphQL has a more flexible error handling mechanism, but it can be more difficult to troubleshoot errors.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "- Better Support for Integration with Third-Party Tools: Many third-party tools and platforms have built-in support for REST APIs, which can make it easier to integrate with these tools.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "While GraphQL is gaining popularity, it may not yet have the same level of support from third-party tools and platforms.",
+    "meta": {
+      "source": "RestAPI.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "# Internal Quarterly Report for Q1 2023:\n\n## Introduction:\nThis report outlines the performance of the company for the first quarter of 2023.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "The report includes information about the financial status, sales, marketing activities, and overall progress of the company during the quarter.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "## Financial Status:\nDuring the first quarter of 2023, the company recorded a total revenue of $10 million, which is a 5% decrease from the same period last year.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "The net income for the quarter was $2 million, which represents a 6.2% increase compared to the previous year.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "The operating expenses for the quarter were $6 million, which are more than last year.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "## Sales Performance:\nThe company witnessed strong sales performance during the first quarter of 2023.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "The total sales for the quarter were $8 million, which is a 7% increase compared to the same period last year.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "The sales growth was driven by the launch of new products and expansion into new markets.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "The company expects the sales growth to continue in the upcoming quarters.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "## Marketing Activities:\nDuring the first quarter of 2023, the company focused on expanding its marketing efforts.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "The company increased its digital marketing activities by launching a new social media campaign and partnering with influencers to promote the brand.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "The company also participated in several trade shows and events to increase brand awareness.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "## Overall Progress:\nThe first quarter of 2023 was acceptable, but not ideal for the company.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "The financial performance was weak, with revenue and net income decreasing compared to the previous year.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "The sales growth was driven by the launch of new products and expansion into new markets.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "The marketing activities helped the company to increase brand awareness and reach new customers.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "## Response:\nIn an effort to cut costs we\u2019ve made the decision to reduce headcount.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "We will also begin implementing remote first work and closing some of our offices, further details to be released soon.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Additionally, we will begin moving to incorporate AI products in our business.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "As AI technology continues to advance, companies that do not adapt risk being left behind.",
+    "meta": {
+      "source": "quarterly.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Memo: COVID-19 Update\n\nTo: [Recipient(s)]\n\nFrom: [Your Name]\n\nDate: [Date]\n\nSubject: COVID-19 Update\n\nI am writing to provide an update on the current state of COVID-19 and the impact it is having on our [company/organization/team].",
+    "meta": {
+      "source": "test_incomplete.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "As you are aware, COVID-19 is a highly contagious virus that has affected millions of people worldwide.",
+    "meta": {
+      "source": "test_incomplete.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "It is important that we continue to prioritize the safety and wellbeing of our [employees/clients/customers/students] during this challenging time.",
+    "meta": {
+      "source": "test_incomplete.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Section 1: Current Status\n\nAs of [date], there have been [number] confirmed cases of COVID-19 in [location/region].",
+    "meta": {
+      "source": "test_incomplete.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "The following measures are currently in place to help prevent the spread of the virus:\n\n[Measure 1]\n\n[Measure 2]\n\n[Measure 3]\n\nSection 2: Impact on [Company/Organization/Team]\n\nThe following are ways in which COVID-19 has impacted our [company/organization/team]:\n\n[Impact 1]\n\n[Impact 2]\n\n[Impact 3]\n\nSection 3: Precautionary Measures\n\nTo ensure the safety of our [employees/clients/customers/students], the following precautionary measures are being taken:\n\n[Measure 1]\n\n[Measure 2]\n\n[Measure 3]\n\nConclusion:\n\nWe will continue to closely monitor the situation and provide updates as needed.",
+    "meta": {
+      "source": "test_incomplete.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Please stay informed about COVID-19 and follow recommended safety measures to help prevent its spread.",
+    "meta": {
+      "source": "test_incomplete.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Note: The information in this memo is based on [source of information].",
+    "meta": {
+      "source": "test_incomplete.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "To: All Employees\n\nSubject: Productive Week\n\nDear Team,\n\nI am pleased to report that this past week was incredibly productive for our tech company.",
+    "meta": {
+      "source": "weekly_memo.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Each and every one of you contributed to our success and I am grateful for your hard work and dedication.",
+    "meta": {
+      "source": "weekly_memo.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "We hit several important milestones including the successful launch of our new product, increased customer engagement, and improved efficiency in our operations.",
+    "meta": {
+      "source": "weekly_memo.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Our team showed tremendous collaboration and creativity in overcoming challenges and finding solutions to complex problems.",
+    "meta": {
+      "source": "weekly_memo.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Let's keep up the momentum and continue to push forward with determination and innovation.",
+    "meta": {
+      "source": "weekly_memo.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Together, we can achieve even greater success.",
+    "meta": {
+      "source": "weekly_memo.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Thank you all for your efforts and commitment to our company's goals.",
+    "meta": {
+      "source": "weekly_memo.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Best regards,\n\n[Your Name]",
+    "meta": {
+      "source": "weekly_memo.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "# Why we switched from Java to Kotlin (Meta)\n\nNullability: Kotlin has built-in nullability handling that is more robust and easier to work with than Java, which can help to avoid null pointer exceptions.",
+    "meta": {
+      "source": "JavaToKotlin.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Functional programming: Kotlin's support for inline functions and lambda expressions allows for the use of a functional programming style without compromising execution speed, making it a better alternative to Java.",
+    "meta": {
+      "source": "JavaToKotlin.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Shorter code: Kotlin's modern design makes its code shorter, and it allows for dropping explicit types, which can make code more explicit and easier to follow.",
+    "meta": {
+      "source": "JavaToKotlin.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Domain-specific language (DSL) / Type-safe builders: Kotlin's various features come together and let developers define a DSL, making it possible to move definitions such as Android XMLs to be implemented directly in Kotlin code.",
+    "meta": {
+      "source": "JavaToKotlin.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Maintaining execution speed: Kotlin compiles to the same JVM bytecode as Java, which means there is no expected performance regression in terms of execution speed when switching to Kotlin.",
+    "meta": {
+      "source": "JavaToKotlin.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "After running multiple A/B tests Kotlin was found to match or exceed Java in performance.",
+    "meta": {
+      "source": "JavaToKotlin.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Build size is not an issue: The Kotlin standard library is relatively small, and since most releases use Proguard and Redex, only some of it even makes it into a release APK.",
+    "meta": {
+      "source": "JavaToKotlin.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Therefore, size hasn\u2019t proved to be a problem except in situations where a few KBs of extra code matter.",
+    "meta": {
+      "source": "JavaToKotlin.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "However, by avoiding Kotlin\u2019s standard library and using the already available Java methods, the problem can be solved.",
+    "meta": {
+      "source": "JavaToKotlin.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "However, adopting Kotlin also has a few disadvantages:\n\nMixed codebase: Adopting another language could mean dealing with a mixed codebase of two languages for a long time.",
+    "meta": {
+      "source": "JavaToKotlin.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Kotlin is good at interacting with Java, but quirks do pop up at times.",
+    "meta": {
+      "source": "JavaToKotlin.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Popularity gap: Java is still more popular than Kotlin, so fewer tools are available, and all Kotlin tools need to account for Kotlin and Java interoperability, which complicates their implementation.",
+    "meta": {
+      "source": "JavaToKotlin.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Build times: Kotlin's build times can be longer than Java's due to its more complicated ecosystem, which can negatively impact developers' experience.",
+    "meta": {
+      "source": "JavaToKotlin.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "# Optimizing server costs AWS\n\n* Optimize network usage: Minimize network traffic by using content delivery networks (CDNs) and caching.",
+    "meta": {
+      "source": "AWSGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Also, make sure to review and optimize data transfer costs, especially for large file transfers or for data transfer between different regions or providers.",
+    "meta": {
+      "source": "AWSGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "* Optimize storage usage: You can optimize storage usage by compressing data, removing unused files, and using cheaper storage options for less frequently accessed data.",
+    "meta": {
+      "source": "AWSGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Also, consider using backup and archive solutions that are optimized for long-term storage.",
+    "meta": {
+      "source": "AWSGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "* Monitor resource utilization: Keeping track of server utilization can help you identify which resources are underutilized or overutilized.",
+    "meta": {
+      "source": "AWSGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "You can then make adjustments, such as reducing the number of virtual machines running or resizing instances, to optimize resource usage and minimize costs.",
+    "meta": {
+      "source": "AWSGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "* Use automation: Automating processes can help you avoid human error and optimize server usage.",
+    "meta": {
+      "source": "AWSGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "For example, you can set up auto scaling groups to automatically adjust the number of instances based on demand, or use serverless computing to automatically allocate resources when needed.",
+    "meta": {
+      "source": "AWSGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "* Use reserved instances: Cloud providers offer discounts for reserved instances, which are instances that you commit to using for a certain period of time.",
+    "meta": {
+      "source": "AWSGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "By committing to use instances for longer periods, you can reduce costs and get more predictable pricing.",
+    "meta": {
+      "source": "AWSGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "* Use cost optimization tools: Cloud providers offer cost optimization tools that can help you analyze your usage and identify opportunities for cost savings.",
+    "meta": {
+      "source": "AWSGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Use these tools to regularly review your usage and make adjustments as needed.",
+    "meta": {
+      "source": "AWSGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Building a website may seem like a daunting task, but with the right guidance, it can be a fun and rewarding experience.",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Here are some important things to remember\n\nChoose a domain name: A domain name is the address people type in to access your website.",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Choose a domain name that is easy to remember and relates to your website's content.",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "You can purchase a domain name from a domain registrar such as GoDaddy or Namecheap.",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Choose a web hosting provider: Web hosting is a service that allows you to publish your website on the internet.",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "There are various web hosting providers available, such as Bluehost or SiteGround.",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Choose a web hosting provider that meets your website's needs and budget.",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Choose a website builder or content management system (CMS): A website builder or CMS is a tool that allows you to create and manage your website's content.",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Popular website builders include Wix and Squarespace, while popular CMSs include WordPress and Joomla.",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Design your website: Choose a design template that fits your website's theme and customize it to your liking.",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "If you are using a website builder, you can drag and drop elements to create your website's layout.",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "If you are using a CMS, you may need to hire a web developer to customize your website's design.",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Add content: Add pages and content to your website, such as text, images, and videos.",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Make sure your content is high-quality and engaging to your target audience.",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Optimize your website for search engines: Use keywords and meta tags to help search engines understand what your website is about.",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "This can improve your website's",
+    "meta": {
+      "source": "website_guide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "# Executive Summary:\n\nWe propose a comprehensive digital transformation and innovation project for your big tech company.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "The project aims to accelerate your company's digital capabilities and provide new growth opportunities through innovative technology solutions.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "With our expertise in digital strategy, user experience design, and technology implementation, we are confident that we can help your company achieve its goals and stay ahead of the competition.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Project Objectives:\n\nDevelop a digital strategy to align with the company's overall business objectives.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Conduct a thorough analysis of existing digital capabilities and identify areas for improvement.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Implement new technologies and systems to support the company's digital strategy.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Enhance the user experience across all digital touchpoints.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Increase revenue and market share through innovative technology solutions.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Project Scope:\n\nThe project will encompass the following phases:\n\nPhase 1: Digital Strategy Development\n\nIn this phase, we will work with your company's leadership team to develop a comprehensive digital strategy that aligns with your business objectives.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "We will conduct a competitive analysis and market research to identify emerging trends and opportunities.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Phase 2: Digital Capability Assessment\n\nWe will conduct a thorough analysis of your company's existing digital capabilities, including systems, processes, and data.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Based on the analysis, we will identify areas for improvement and develop a roadmap for implementation.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Phase 3: Technology Implementation\n\nWe will implement new technologies and systems to support the company's digital strategy.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "This may include implementing cloud-based solutions, developing new applications, or integrating existing systems.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Phase 4: User Experience Enhancement\n\nWe will enhance the user experience across all digital touchpoints, including web, mobile, and social media.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "We will conduct user research and develop user-centric designs to improve engagement and conversion.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Phase 5: Innovation and Growth\n\nWe will identify new growth opportunities through innovative technology solutions.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "This may include developing new products, services, or business models.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Project Timeline and Budget:\n\nThe project will be completed over a period of 12 months, with an estimated budget of $10 million.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "The timeline and budget may be adjusted based on the specific needs and requirements of your company.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Conclusion:\n\nWe believe that our digital transformation and innovation project can help your big tech company achieve its goals and stay ahead of the competition.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Our team of experts has the experience and expertise to deliver high-quality results, and we are committed to working closely with your company throughout the project.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "We look forward to the opportunity to discuss the project further and answer any questions you may have.",
+    "meta": {
+      "source": "dummy_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "To: All Office Employees\nFrom: [Your Name]\nDate: [Date]\n\nSubject: Bringing Snacks to the Office\n\nHello everyone,\n\nI would like to suggest that we bring snacks to the office to share with our colleagues.",
+    "meta": {
+      "source": "snacks.md",
+      "classification": "memo",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Let's plan to start bringing snacks in next week on [day/date].",
+    "meta": {
+      "source": "snacks.md",
+      "classification": "memo",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Thank you all and let's enjoy some treats together!",
+    "meta": {
+      "source": "snacks.md",
+      "classification": "memo",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Best,\n[Your Name]",
+    "meta": {
+      "source": "snacks.md",
+      "classification": "memo",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Guide: How to Stretch During a Long Office Day\n\nSitting at a desk for long periods of time can cause stiffness and discomfort in your muscles.",
+    "meta": {
+      "source": "stretch.md",
+      "classification": "guide",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Here are a few stretches you can do throughout the day to help alleviate tension:\n\nNeck Stretch: Gently tilt your head to the right, bringing your right ear toward your right shoulder.",
+    "meta": {
+      "source": "stretch.md",
+      "classification": "guide",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Hold for a few seconds, then repeat on the other side.",
+    "meta": {
+      "source": "stretch.md",
+      "classification": "guide",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Shoulder Rolls: Roll your shoulders forward in a circular motion, then backward.",
+    "meta": {
+      "source": "stretch.md",
+      "classification": "guide",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Repeat several times.",
+    "meta": {
+      "source": "stretch.md",
+      "classification": "guide",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Seated Hamstring Stretch: Sit on the edge of your chair and extend one leg out in front of you with your heel on the ground.",
+    "meta": {
+      "source": "stretch.md",
+      "classification": "guide",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Keeping your back straight, lean forward until you feel a stretch in the back of your leg.",
+    "meta": {
+      "source": "stretch.md",
+      "classification": "guide",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Hold for 10-15 seconds, then switch legs.",
+    "meta": {
+      "source": "stretch.md",
+      "classification": "guide",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Wrist and Finger Stretches: Interlace your fingers in front of you with your palms facing away from your body, then gently push your hands forward to stretch your wrists.",
+    "meta": {
+      "source": "stretch.md",
+      "classification": "guide",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Next, spread your fingers apart and hold for a few seconds, then make a fist and hold for a few seconds.",
+    "meta": {
+      "source": "stretch.md",
+      "classification": "guide",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Remember to take breaks throughout the day to stand up and walk around, and to stretch your legs, arms and back.",
+    "meta": {
+      "source": "stretch.md",
+      "classification": "guide",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Disclaimer: Please consult with your healthcare provider before starting any exercise program, and stop immediately if you experience any pain or discomfort.",
+    "meta": {
+      "source": "stretch.md",
+      "classification": "guide",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Introduction:\nLinux is a free and open-source operating system that has become increasingly popular in recent years.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "It offers many benefits, such as security, flexibility, and customizability, making it a great choice for individuals and businesses alike.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "This proposal aims to outline the advantages of using Linux machines and provide a plan for implementing Linux in your organization.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Advantages of Linux Machines:\n\nCost-effective: Linux is free to download and use, which can result in significant cost savings compared to proprietary operating systems like Windows.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Security: Linux is known for its security features, including built-in firewalls and a robust permission system that makes it more difficult for hackers to penetrate the system.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Flexibility: Linux can be customized to meet the needs of the user, making it a versatile choice for a variety of applications.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Reliability: Linux machines have a reputation for being stable and reliable, with fewer crashes and bugs than other operating systems.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Implementation Plan:\n\nAssess your organization's needs: Before switching to Linux, it's important to assess your organization's needs and determine whether Linux is the right choice for you.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Consider factors like software compatibility, technical expertise, and user requirements.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Choose a distribution: Linux comes in many different distributions, each with its own set of features and tools.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Research different distributions to find one that best fits your organization's needs.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Test the distribution: Before deploying Linux to your entire organization, it's a good idea to test the distribution on a few machines to ensure compatibility and ease of use.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Provide training: Linux may require some training for users who are accustomed to other operating systems.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Offer training sessions or resources to help users learn the basics of using Linux.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Deploy Linux: Once you've chosen a distribution, tested it, and provided training, it's time to deploy Linux to your organization.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Consider a phased rollout to minimize disruption and provide support during the transition.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Conclusion:\nSwitching to Linux machines can offer many benefits, including cost savings, security, flexibility, and reliability.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "By following this implementation plan, you can successfully integrate Linux into your organization and reap the rewards of this powerful operating system.",
+    "meta": {
+      "source": "test_proposal.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "# Github Actions to Jenkins\n\nWhile GitHub Actions and Jenkins are both popular CI/CD tools, we've made the\nchoice to switch to Jenkins.",
+    "meta": {
+      "source": "ActionsToJenkins.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "- Greater Flexibility: Jenkins provides greater flexibility and customization options compared to GitHub Actions.",
+    "meta": {
+      "source": "ActionsToJenkins.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Jenkins is an open-source tool, and developers can write custom plugins to extend its functionality, while GitHub Actions is a proprietary tool with more limited options for customization.",
+    "meta": {
+      "source": "ActionsToJenkins.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "- Better Integration with Legacy Systems: Jenkins has been around for much longer than GitHub Actions, and as a result, it has better integration capabilities with legacy systems.",
+    "meta": {
+      "source": "ActionsToJenkins.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "If a company has existing infrastructure or tools that are compatible with Jenkins, it may be more efficient to use Jenkins instead of investing in new technologies to support GitHub Actions.",
+    "meta": {
+      "source": "ActionsToJenkins.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "- More Comprehensive Build Pipelines: Jenkins has a more comprehensive set of features for building and deploying applications, such as support for parallel builds, distributed builds, and multiple triggers.",
+    "meta": {
+      "source": "ActionsToJenkins.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "While GitHub Actions has similar features, Jenkins has been around for much longer and has a more mature ecosystem.",
+    "meta": {
+      "source": "ActionsToJenkins.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "- Better Support for Large-Scale Projects: Jenkins is designed to handle large-scale projects with multiple components, while GitHub Actions is more geared towards smaller projects with simpler workflows.",
+    "meta": {
+      "source": "ActionsToJenkins.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "If a company has a large-scale project with complex workflows and multiple components, Jenkins may be a better choice.",
+    "meta": {
+      "source": "ActionsToJenkins.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "- Better Control over Security: Jenkins provides better control over security compared to GitHub Actions.",
+    "meta": {
+      "source": "ActionsToJenkins.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "With Jenkins, the company has full control over the infrastructure and can implement security measures such as firewalls, access controls, and user permissions.",
+    "meta": {
+      "source": "ActionsToJenkins.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "While GitHub Actions also provides security features, the company has less control over the underlying infrastructure.",
+    "meta": {
+      "source": "ActionsToJenkins.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "- Better Support for Multiple Platforms: Jenkins supports multiple platforms, including Linux, Windows, and macOS, while GitHub Actions has limited support for Windows and macOS.",
+    "meta": {
+      "source": "ActionsToJenkins.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "If a company needs to build and deploy applications across multiple platforms, Jenkins may be a better choice.",
+    "meta": {
+      "source": "ActionsToJenkins.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "- It's important to note that while there may be reasons to switch from GitHub Actions to Jenkins, each tool has its own strengths and weaknesses, and the decision should be based on the specific needs and requirements of the company.",
+    "meta": {
+      "source": "ActionsToJenkins.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Report: State of Java\n\nIntroduction:\n\nJava is a popular programming language that has been widely used for [number] years.",
+    "meta": {
+      "source": "java.md",
+      "classification": "report",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "In this report, we will examine the current state of Java and its [current/ongoing] impact on the industry.",
+    "meta": {
+      "source": "java.md",
+      "classification": "report",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Section 1: Java Trends\n\nJava has [increased/decreased/remained stable] in popularity in recent years.",
+    "meta": {
+      "source": "java.md",
+      "classification": "report",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "The following trends have been observed:\n\nIncreased usage of [Java-based framework/platform/tool] in [industry/field]\n\nGrowth of the [Java community/number of Java developers] in [location/region]\n\n[New/emerging] Java technologies such as [technology 1], [technology 2], and [technology 3] gaining traction\n\nSection 2: Java Challenges\n\nDespite its widespread usage, Java faces several challenges, including:\n\n[Challenge 1]\n\n[Challenge 2]\n\n[Challenge 3]\n\nSection 3: Java Opportunities\n\nJava also presents several opportunities for growth and innovation, including:\n\n[Opportunity 1]\n\n[Opportunity 2]\n\n[Opportunity 3]\n\nConclusion:\n\nOverall, Java continues to be a significant player in the programming industry.",
+    "meta": {
+      "source": "java.md",
+      "classification": "report",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "While it faces challenges, the language also presents opportunities for growth and development.",
+    "meta": {
+      "source": "java.md",
+      "classification": "report",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "Note: The information in this report is based on [source of information].",
+    "meta": {
+      "source": "java.md",
+      "classification": "report",
+      "finished": "unfinished"
+    }
+  },
+  {
+    "text": "# Integrating AI into our apps\n\nStep 1: Choose Your AI Platform\nThe first step in integrating AI into your app is to choose the right AI platform.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "There are several popular AI platforms available, including TensorFlow, PyTorch, and Keras.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Each platform has its strengths and weaknesses, so choose the one that best fits your needs.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Step 2: Prepare Your Data\nTo train an AI model, you need a large amount of data.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Depending on the use case, you may need to collect data from various sources and prepare it for training.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "This involves cleaning the data, labeling it, and splitting it into training and testing sets.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Step 3: Select and Train Your AI Model\nOnce you have prepared your data, you need to select an AI model that fits your use case.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "There are several pre-built AI models available, or you can build your own from scratch using your preferred AI platform.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Training an AI model involves feeding it your prepared data and iteratively adjusting the model's parameters until it accurately predicts the desired outcome.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Step 4: Integrate Your AI Model into Your App\nAfter training your AI model, it's time to integrate it into your app.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "This involves exporting the model and integrating it into your app's codebase.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Depending on the platform and programming language you're using, there are several ways to integrate an AI model.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "You can use an API, SDK, or directly incorporate the model into your code.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Step 5: Test and Refine Your AI Model\nOnce you've integrated your AI model into your app, it's important to test it thoroughly to ensure it's performing as expected.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "This involves testing the model under different scenarios and using various metrics to evaluate its accuracy.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "If necessary, refine the model by tweaking its parameters or adding more training data.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Pitfalls:\n\nIntegration challenges: Integrating AI systems with existing infrastructure and workflows can be challenging.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Organizations may need to invest in additional resources to ensure that the integration is successful.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Lack of transparency: AI models can be difficult to interpret and understand, leading to concerns about their transparency and accountability.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "It is important for organizations to ensure that their AI systems are transparent and that their decisions can be explained to stakeholders.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Ethical concerns: AI systems can raise ethical concerns, particularly around issues such as fairness, accountability, and bias.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Organizations must ensure that they are considering these ethical concerns throughout the AI integration process.",
+    "meta": {
+      "source": "AIGuide.md",
+      "classification": "guide",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "# Switching from in house servers to AWS\n\nIn an effort to grow faster, we've made the decision to move to AWS.",
+    "meta": {
+      "source": "InhouseToAWS.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Scalability: In-house servers are limited by physical infrastructure and can only handle a certain amount of traffic and data processing.",
+    "meta": {
+      "source": "InhouseToAWS.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "With AWS, developers can easily scale up or down their computing resources to meet the demands of their applications, without the need for additional hardware.",
+    "meta": {
+      "source": "InhouseToAWS.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Cost-effectiveness: Building and maintaining an in-house server infrastructure can be expensive, requiring significant upfront costs for hardware, software licenses, and ongoing maintenance.",
+    "meta": {
+      "source": "InhouseToAWS.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "With AWS, developers can pay for what they use, only paying for the computing resources they need at any given time.",
+    "meta": {
+      "source": "InhouseToAWS.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "High Availability: AWS provides multiple availability zones across the globe, ensuring that applications are highly available and accessible to users, even in the event of a data center failure.",
+    "meta": {
+      "source": "InhouseToAWS.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "This level of redundancy is difficult and expensive to replicate with an in-house infrastructure.",
+    "meta": {
+      "source": "InhouseToAWS.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Security: AWS provides a wide range of security features, including encryption, access control, and monitoring tools, which can help developers protect their applications and data from external threats.",
+    "meta": {
+      "source": "InhouseToAWS.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "In-house server setups require additional resources and expertise to ensure similar levels of security.",
+    "meta": {
+      "source": "InhouseToAWS.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Flexibility: AWS provides a wide range of services, including compute, storage, and database offerings, that can be quickly and easily integrated into applications.",
+    "meta": {
+      "source": "InhouseToAWS.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "This flexibility allows developers to build and deploy applications more quickly and efficiently than they could with an in-house infrastructure.",
+    "meta": {
+      "source": "InhouseToAWS.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Global Reach: AWS has a vast global network of data centers, making it easy for developers to deploy applications and services in multiple regions around the world.",
+    "meta": {
+      "source": "InhouseToAWS.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "This global reach can help companies expand their businesses and reach new customers.",
+    "meta": {
+      "source": "InhouseToAWS.md",
+      "classification": "report",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "# Remote First Memo\n\nTo: All Employees\n\nSubject: Switching to Hybrid and Remote Work\n\nDear colleagues,\n\nAs we all know, the COVID-19 pandemic has had a profound impact on the way we work.",
+    "meta": {
+      "source": "Remote.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Since the start of the pandemic, we have all had to adapt to new ways of working, including working from home and conducting virtual meetings.",
+    "meta": {
+      "source": "Remote.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Over the past year, we have demonstrated that we can be productive and successful in a remote work environment.",
+    "meta": {
+      "source": "Remote.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "As we look towards the future, we want to continue to prioritize the health and safety of our employees, while also providing flexibility and work-life balance.",
+    "meta": {
+      "source": "Remote.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "After careful consideration and consultation with management and our HR department, we have decided to switch to a hybrid and remote work model.",
+    "meta": {
+      "source": "Remote.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Starting next month, we will be implementing a hybrid and remote work policy that will allow employees to work from home for up to two days a week, while also coming into the office for the remaining three days.",
+    "meta": {
+      "source": "Remote.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "This will allow us to maintain the benefits of in-person collaboration and team building while also providing the flexibility and work-life balance that many employees have come to value.",
+    "meta": {
+      "source": "Remote.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "We understand that this may be a significant change for some employees and that it will require us to adjust our working arrangements and communication channels.",
+    "meta": {
+      "source": "Remote.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "However, we believe that this change will benefit both the company and our employees in the long run.",
+    "meta": {
+      "source": "Remote.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "To ensure a smooth transition, we will be providing training and resources for remote work, including guidance on how to set up a home office, best practices for remote collaboration, and communication tools to facilitate virtual meetings and communication.",
+    "meta": {
+      "source": "Remote.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "We appreciate your continued hard work and dedication to our company, and we believe that this change will allow us to continue to grow and succeed in the years to come.",
+    "meta": {
+      "source": "Remote.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "If you have any questions or concerns about this change, please do not hesitate to reach out to your manager or our HR department.",
+    "meta": {
+      "source": "Remote.md",
+      "classification": "memo",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Dear [Company Leadership],\n\nI am writing to propose a plan for incorporating artificial intelligence (AI) into our company.",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "As you are aware, AI has become an increasingly important technology in the business world, and its potential for improving efficiency, productivity, and decision-making cannot be ignored.",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "By integrating AI into our operations, we can stay competitive, reduce costs, and better serve our customers.",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "To start the process, I recommend that we begin with a thorough assessment of our company's needs and potential use cases for AI.",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "This will involve reviewing our existing business processes, identifying pain points or inefficiencies that AI can address, and determining which AI technologies and tools would be most relevant to our business.",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Once we have a clear understanding of our needs, we can move on to developing a strategy for implementing AI.",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "This will involve determining the scope of the project, setting goals and timelines, and identifying the necessary resources (both human and technological) for success.",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "In terms of technology, I recommend that we start with a pilot project that will allow us to test the waters and see how AI can work in our company.",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "This could involve implementing an AI-powered chatbot to handle customer inquiries, or using machine learning to analyze customer data for insights that can improve our marketing efforts.",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "To ensure that our staff is prepared for the changes that AI will bring, I recommend that we invest in training and education programs that will help our employees understand how AI works and how it can be integrated into their work.",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "This will help us to ensure that our workforce is equipped to handle the changes that come with AI and that they can fully leverage its potential benefits.",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Finally, I recommend that we establish a dedicated AI team to oversee the implementation of these changes and ensure that our company is able to adapt and evolve as new AI technologies and applications become available.",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "In conclusion, incorporating AI into our company is a necessary step for staying competitive in today's business landscape.",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "By following the steps outlined in this proposal, we can develop a comprehensive plan for implementing AI that will benefit our business and our customers.",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Thank you for considering this proposal.",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  },
+  {
+    "text": "Sincerely,\n\n[Your Name]",
+    "meta": {
+      "source": "ai_proposal.md",
+      "classification": "proposal",
+      "finished": "finished"
+    }
+  }
 ]
