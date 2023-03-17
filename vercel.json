@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "page/api/*.js":  {
+      "includeFiles": "documents/*.md"
+    }
+  }
+}
