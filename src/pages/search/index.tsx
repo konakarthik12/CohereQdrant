@@ -1,19 +1,22 @@
-import useSWR from 'swr';
 import {useRouter} from "next/router";
 import React, {useRef} from 'react';
 import Link from 'next/link';
 
-const fetcher = (url: RequestInfo | URL) => fetch(url).then((res) => res.json())
+
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
+
 export default function Home() {
   const router = useRouter()
   const ref = useRef<HTMLInputElement>(null)
 
   const {query} = router.query
-  const {data} = useSWR(`/api/search?q=${query}`, fetcher)
-  if (!data) return <div>Loading...</div>
+  // const {data} = useSWR(`/api/search?q=${query}`, fetcher)
+  // if (!data) return <div>Loading...</div>
+  const data = {
+    hits: []
+  }
   const search = async () => {
     if (ref.current) {
       const value = ref?.current?.value
