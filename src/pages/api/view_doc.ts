@@ -13,7 +13,8 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const file = await fs.readFile(path.resolve(process.cwd(), 'documents/AWSGuide.md'), 'utf8')
+  const {query: {doc}} = req
+  const file = await fs.readFile(path.resolve(process.cwd(), `documents/${doc}`), 'utf8')
 
   res.status(200).json({file})
 }
