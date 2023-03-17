@@ -18,10 +18,6 @@ if __name__ == '__main__':
     vectors = np.load(vectors_path)
     vector_size = vectors.shape[1]
     json_file = open('data.json', 'r')
-    # payload = json.load(json_file)
-    # payload_path = json.loads('data.json')
-    # with open(payload_path) as fd:
-    #     payload = list(map(json.loads, fd))
     payload = json.load(json_file)
     qdrant_client.recreate_collection(
         collection_name="documents",

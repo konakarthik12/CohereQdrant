@@ -1,9 +1,8 @@
-from typing import List
 import os
-from qdrant_client import QdrantClient
-from qdrant_client.http.models.models import Filter
-from sentence_transformers import SentenceTransformer
+
 from dotenv import load_dotenv
+from qdrant_client import QdrantClient
+from sentence_transformers import SentenceTransformer
 
 load_dotenv()
 
