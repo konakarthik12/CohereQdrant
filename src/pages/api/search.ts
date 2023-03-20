@@ -42,10 +42,14 @@ async function qdrantSearch(query) {
       limit: 5
     })
   })
-  const data = await response.json()
-  return data.result;
-  // return await response.json()
-  // return r
+  const data = await response.json();
+  const files = new Set()
+  return data.result.filter(r => {
+    if (files.has(r.payload.meta.source)) return false;
+    files.add(r.payload.meta.source);
+    return true;
+  });
+
 
 }
 
